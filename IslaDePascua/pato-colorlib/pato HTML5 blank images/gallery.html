@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Gallery</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" type="text/css" href="../pato HTML5 blank images/vendor/all.min.css" />
+
+	<!--===============================================================================================-->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+	<!--===============================================================================================-->
+	<link rel="icon" type="image/png" href="images/icons/favicon.png" />
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/themify/themify-icons.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/slick/slick.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/lightbox2/css/lightbox.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<!--===============================================================================================-->
+</head>
+
+<body class="animsition">
+
+	<!-- Header -->
+	<header>
+		<!-- Header desktop -->
+		<div class="wrap-menu-header gradient1 trans-0-4">
+			<div class="container h-full">
+				<div class="wrap_header trans-0-3">
+
+
+					<!-- Menu -->
+					<div class="wrap_menu p-l-45 p-l-0-xl">
+						<div class="wrap_menu p-l-45 p-l-0-xl">
+							<nav class="menu">
+								<ul class="main_menu">
+									<li>
+										<a href="index.html">Home</a>
+									</li>
+
+									<li>
+										<a href="menu.html">Gastronomia</a>
+									</li>
+
+									<li>
+										<a href="about.html">Music/Danc</a>
+									</li>
+
+									<li>
+										<a href="reservation.html">Turismo</a>
+									</li>
+
+									<li>
+										<a href="contact.html">Historia</a>
+									</li>
+
+									<li>
+										<a href="blog.html">Geografia</a>
+									</li>
+
+									<li>
+										<a href="gallery.html">Gallery</a>
+									</li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+
+					<!-- Social -->
+					<div class="social flex-w flex-l-m p-r-20">
+						<a href="#"><i class="fa fa-tripadvisor" aria-hidden="true"></i></a>
+						<a href="#"><i class="fa fa-facebook m-l-21" aria-hidden="true"></i></a>
+						<a href="#"><i class="fa fa-twitter m-l-21" aria-hidden="true"></i></a>
+
+						<button class="btn-show-sidebar m-l-33 trans-0-4"></button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<!-- Sidebar -->
+	<aside class="sidebar trans-0-4">
+		<!-- Button Hide sidebar -->
+		<button class="btn-hide-sidebar ti-close color0-hov trans-0-4"></button>
+
+		<!-- - -->
+		<!-- - -->
+		<ul class="menu-sidebar p-t-95 p-b-70">
+			<li class="t-center m-b-13">
+				<a href="index.html" class="txt19">Home</a>
+			</li>
+
+			<li class="t-center m-b-13">
+				<a href="menu.html" class="txt19">Gastronomia</a>
+			</li>
+
+			<li class="t-center m-b-13">
+				<a href="gallery.html" class="txt19">Galeria</a>
+			</li>
+
+			<li class="t-center m-b-13">
+				<a href="about.html" class="txt19">Music/Dance</a>
+			</li>
+
+			<li class="t-center m-b-13">
+				<a href="blog.html" class="txt19">Geografia</a>
+			</li>
+
+			<li class="t-center m-b-33">
+				<a href="contact.html" class="txt19">Historia</a>
+			</li>
+
+			<li class="t-center">
+				<!-- Button3 -->
+				<a href="reservation.html" class="btn3 flex-c-m size13 txt11 trans-0-4 m-l-r-auto">
+					Turismo
+				</a>
+			</li>
+		</ul>
+	</aside>
+
+
+	<!-- Title Page Banner principal-->
+	<section class="bg-title-page flex-c-m p-t-160 p-b-80 p-l-15 p-r-15"
+		style="background-image: url(../../imgs/bannerGaleria.jpg);">
+		<h2 class="tit6 t-center">
+			Gallery
+		</h2>
+	</section>
+
+
+
+	<!-- Gallery -->
+	<div class="section-gallery p-t-118 p-b-100">
+		<div
+			class="wrap-label-gallery filter-tope-group size27 flex-w flex-sb-m m-l-r-auto flex-col-c-sm p-l-15 p-r-15 m-b-60">
+			<!-- - CATEGORIAS
+			<button class="label-gallery txt26 trans-0-4 is-actived" data-filter="*">
+				All Photo
+			</button>
+
+			<button class="label-gallery txt26 trans-0-4" data-filter=".interior">
+				Interior
+			</button>
+
+			<button class="label-gallery txt26 trans-0-4" data-filter=".food">
+				Food
+			</button>
+
+			<button class="label-gallery txt26 trans-0-4" data-filter=".events">
+				Events
+			</button>
+
+			<button class="label-gallery txt26 trans-0-4" data-filter=".guests">
+				Vip guests
+			</button>-->
+		</div>
+
+		<div class="wrap-gallery isotope-grid flex-w p-l-25 p-r-25">
+			<!-- Gallery 
+				<div class="owl-carousel owl-theme" style="text-align: center;">
+						
+						<div class="item" data-merge="2"><h2><img src="../../imgs/volcan-rano-kau-crater.jpg">4</h2></div>
+						<div class="item" data-merge="2"><h2><img src="../../imgs/mar.jpg">5</h2></div>
+						<div class="item" data-merge="2"><h2><img src="../../imgs/tamano-isla-de-pascua.jpg">6</h2></div>
+						<div class="item" data-merge="2"><h2><img src="../../imgs/Geografia-Isla-de-Pascua-Ana-Kai-Tangata-Hotel-Iorana.jpg">7</h2></div>
+						<div class="item" data-merge="2"><h2><img src="../../imgs/Rapa-Nui-Location-Map.png">7</h2></div>
+						<div class="item" data-merge="2"><h2><img src="../../imgs/TURISMO.jpg">8</h2></div>
+						<div class="item" data-merge="2"><h2><img src="../../imgs/bannerInicio.jpg">9</h2></div>
+						<div class="item" data-merge="2"><h2><img src="../../imgs/frutas.jpg">10</h2></div>
+						<div class="item" data-merge="2"><h2><img src="../../imgs/kaikai.jpg">11</h2></div>
+					</div>
+			
+			<div class="owl-carousel owl-theme" style="text-align: center;">
+				<div class="item"><h4><img src="../../imgs/g"></h4></div>
+				<div class="item"><h4><img src="../../imgs/Rapa-NuiLocation-Map.png"></h4></div>
+				<div class="item"><h4><img src="../../imgs/Vista-aerea-de-Rano-Raraku-Rapa-Nui-Isla-de-Pascua.jpg"></h4></div>
+				<div class="item"><h4><img src="../../imgs/baile1.jpg">4</h4></div>
+				<div class="item"><h4><img src="../../imgs/bannerComidas.jpg">5</h4></div>
+				<div class="item"><h4><img src="../../imgs/TURISMO.jpg">6</h4></div>
+				<div class="item"><h4><img src="../../imgs/g">7</h4></div>
+				<div class="item"><h4><img src="../../imgs/baileisldepascuaBanner.jpg">8</h4></div>
+				<div class="item"><h4><img src="../../imgs/comida-tipica-isla-de-pascua-curanto-umu-rapa-nui.jpg">9</h4></div>
+				<div class="item"><h4><img src="../../imgs/historia.jpg">10</h4></div>
+				<div class="item"><h4><img src="../../imgs/isla-pascua-mundo.png">11</h4></div>
+				<div class="item"><h4><img src="../../imgs/playa-de-anakena.jpg">12</h4></div>
+			</div>-->
+
+			<!-- - CONTENIDO-->
+			<div class="item-gallery isotope-item bo-rad-10 hov-img-zoom events guests">
+				<img src="../../imgs/Geografia-Isla-de-Pascua-Ana-Kai-Tangata-Hotel-Iorana.jpg" alt="IMG-GALLERY">
+
+				<div class="overlay-item-gallery trans-0-4 flex-c-m">
+					<a class="btn-show-gallery flex-c-m fa fa-search"
+						href="../../imgs/Geografia-Isla-de-Pascua-Ana-Kai-Tangata-Hotel-Iorana.jpg"
+						data-lightbox="gallery"></a>
+				</div>
+			</div>
+
+			<!-- - -->
+			<div class="item-gallery isotope-item bo-rad-10 hov-img-zoom food">
+				<img src="../../imgs/isla2.jpg" alt="IMG-GALLERY">
+
+				<div class="overlay-item-gallery trans-0-4 flex-c-m">
+					<a class="btn-show-gallery flex-c-m fa fa-search" href="../../imgs/isla2.jpg"
+						data-lightbox="gallery"></a>
+				</div>
+			</div>
+
+			<!-- - -->
+			<div class="item-gallery isotope-item bo-rad-10 hov-img-zoom events">
+				<img src="../../imgs/Isla3.jpg" alt="IMG-GALLERY">
+
+				<div class="overlay-item-gallery trans-0-4 flex-c-m">
+					<a class="btn-show-gallery flex-c-m fa fa-search" href="../../imgs/Isla3.jpg"
+						data-lightbox="gallery"></a>
+				</div>
+			</div>
+
+			<!-- KAIKAI- -->
+			<div class="item-gallery isotope-item bo-rad-10 hov-img-zoom food">
+				<img src="../../imgs/kaikai.jpg" alt="IMG-GALLERY">
+
+				<div class="overlay-item-gallery trans-0-4 flex-c-m">
+					<a class="btn-show-gallery flex-c-m fa fa-search" href="../../imgs/kaikai.jpg"
+						data-lightbox="gallery"></a>
+				</div>
+			</div>
+
+			<!-- - -->
+			<div class="item-gallery isotope-item bo-rad-10 hov-img-zoom food">
+				<img src="../../imgs/mar.jpg" alt="IMG-GALLERY">
+
+				<div class="overlay-item-gallery trans-0-4 flex-c-m">
+					<a class="btn-show-gallery flex-c-m fa fa-search" href="../../imgs/mar.jpg"
+						data-lightbox="gallery"></a>
+				</div>
+			</div>
+
+			<!-- MOAIS -->
+			<div class="item-gallery isotope-item bo-rad-10 hov-img-zoom interior guests">
+				<img src="../../imgs/moaivs.jpg" alt="IMG-GALLERY">
+
+				<div class="overlay-item-gallery trans-0-4 flex-c-m">
+					<a class="btn-show-gallery flex-c-m fa fa-search" href="../../imgs/moaivs.jpg"
+						data-lightbox="gallery"></a>
+				</div>
+			</div>
+
+			<!-- - -->
+			<div class="item-gallery isotope-item bo-rad-10 hov-img-zoom interior">
+				<img src="../../imgs/paisaje-isla-de-pascua.jpg" alt="IMG-GALLERY">
+
+				<div class="overlay-item-gallery trans-0-4 flex-c-m">
+					<a class="btn-show-gallery flex-c-m fa fa-search" href="../../imgs/paisaje-isla-de-pascua.jpg"
+						data-lightbox="gallery"></a>
+				</div>
+			</div>
+
+			<!-- --->
+			<div class="item-gallery isotope-item bo-rad-10 hov-img-zoom interior">
+				<img src="../../imgs/playa-de-anakena.jpg" alt="IMG-GALLERY">
+
+				<div class="overlay-item-gallery trans-0-4 flex-c-m">
+					<a class="btn-show-gallery flex-c-m fa fa-search" href="../../imgs/playa-de-anakena.jpg"
+						data-lightbox="gallery"></a>
+				</div>
+			</div>
+
+			<!-- --->
+			<div class="item-gallery isotope-item bo-rad-10 hov-img-zoom events">
+				<img src="../../imgs/TURISMO.jpg" alt="IMG-GALLERY">
+
+				<div class="overlay-item-gallery trans-0-4 flex-c-m">
+					<a class="btn-show-gallery flex-c-m fa fa-search" href="../../imgs/TURISMO.jpg"
+						data-lightbox="gallery"></a>
+				</div>
+			</div>
+			<div class="item-gallery isotope-item bo-rad-10 hov-img-zoom food">
+				<img src="../../imgs/barcos.jpg" alt="IMG-GALLERY">
+
+				<div class="overlay-item-gallery trans-0-4 flex-c-m">
+					<a class="btn-show-gallery flex-c-m fa fa-search" href="../../imgs/barcos.jpg"
+						data-lightbox="gallery"></a>
+				</div>
+			</div>
+			<div class="item-gallery isotope-item bo-rad-10 hov-img-zoom food">
+				<img src="../../imgs/volcanb.jpg" alt="IMG-GALLERY">
+
+				<div class="overlay-item-gallery trans-0-4 flex-c-m">
+					<a class="btn-show-gallery flex-c-m fa fa-search" href="../../imgs/volcanb.jpg"
+						data-lightbox="gallery"></a>
+				</div>
+			</div>
+
+			<div class="item-gallery isotope-item bo-rad-10 hov-img-zoom food">
+				<img src="../../imgs/Vista-aerea-de-Rano-Raraku-Rapa-Nui-Isla-de-Pascua.jpg" alt="IMG-GALLERY">
+
+				<div class="overlay-item-gallery trans-0-4 flex-c-m">
+					<a class="btn-show-gallery flex-c-m fa fa-search"
+						href="../../imgs/Vista-aerea-de-Rano-Raraku-Rapa-Nui-Isla-de-Pascua.jpg"
+						data-lightbox="gallery"></a>
+				</div>
+			</div>
+			<!-- --->
+			<div class="item-gallery isotope-item bo-rad-10 hov-img-zoom events">
+				<img src="../../imgs/volcan-rano-kau-crater.jpg" alt="IMG-GALLERY">
+
+				<div class="overlay-item-gallery trans-0-4 flex-c-m">
+					<a class="btn-show-gallery flex-c-m fa fa-search" href="../../imgs/volcan-rano-kau-crater.jpg"
+						data-lightbox="gallery"></a>
+				</div>
+			</div>
+			<div class="item-gallery isotope-item bo-rad-10 hov-img-zoom food">
+				<img src="../../imgs/SAUSAU.jpg" alt="IMG-GALLERY">
+
+				<div class="overlay-item-gallery trans-0-4 flex-c-m">
+					<a class="btn-show-gallery flex-c-m fa fa-search" href="../../imgs/SAUSAU.jpg"
+						data-lightbox="gallery"></a>
+				</div>
+			</div>
+			<div class="item-gallery isotope-item bo-rad-10 hov-img-zoom food">
+				<img src="../../imgs/historia.jpg" alt="IMG-GALLERY">
+
+				<div class="overlay-item-gallery trans-0-4 flex-c-m">
+					<a class="btn-show-gallery flex-c-m fa fa-search" href="../../imgs/historia.jpg"
+						data-lightbox="gallery"></a>
+				</div>
+			</div>
+			<!-- --->
+			<div class="item-gallery isotope-item bo-rad-10 hov-img-zoom events">
+				<img src="../../imgs/el-mejor-ceviche-de-atun.jpg" alt="IMG-GALLERY">
+
+				<div class="overlay-item-gallery trans-0-4 flex-c-m">
+					<a class="btn-show-gallery flex-c-m fa fa-search" href="../../imgs/el-mejor-ceviche-de-atun.jpg"
+						data-lightbox="gallery"></a>
+				</div>
+			</div>
+			<div class="item-gallery isotope-item bo-rad-10 hov-img-zoom food">
+				<img src="../../imgs/comida-tipica-isla-de-pascua-empanadas-atun.jpg" alt="IMG-GALLERY">
+
+				<div class="overlay-item-gallery trans-0-4 flex-c-m">
+					<a class="btn-show-gallery flex-c-m fa fa-search"
+						href="../../imgs/comida-tipica-isla-de-pascua-empanadas-atun.jpg" data-lightbox="gallery"></a>
+				</div>
+			</div>
+			<div class="item-gallery isotope-item bo-rad-10 hov-img-zoom food">
+				<img src="../../imgs/comida-tipica-isla-de-pascua-tunu-ahi.jpg" alt="IMG-GALLERY">
+
+				<div class="overlay-item-gallery trans-0-4 flex-c-m">
+					<a class="btn-show-gallery flex-c-m fa fa-search"
+						href="../../imgs/comida-tipica-isla-de-pascua-tunu-ahi.jpg" data-lightbox="gallery"></a>
+				</div>
+			</div>
+			<!-- --->
+			<div class="item-gallery isotope-item bo-rad-10 hov-img-zoom events">
+				<img src="../../imgs/frutas.jpg" alt="IMG-GALLERY">
+
+				<div class="overlay-item-gallery trans-0-4 flex-c-m">
+					<a class="btn-show-gallery flex-c-m fa fa-search" href="../../imgs/frutas.jpg"
+						data-lightbox="gallery"></a>
+				</div>
+			</div>
+			<div class="item-gallery isotope-item bo-rad-10 hov-img-zoom food">
+				<img src="../../imgs/frutosdelmar.jpg" alt="IMG-GALLERY">
+
+				<div class="overlay-item-gallery trans-0-4 flex-c-m">
+					<a class="btn-show-gallery flex-c-m fa fa-search" href="../../imgs/frutosdelmar.jpg"
+						data-lightbox="gallery"></a>
+				</div>
+			</div>
+			<div class="item-gallery isotope-item bo-rad-10 hov-img-zoom food">
+				<img src="../../imgs/comida-tipica-isla-de-pascua-curanto.jpg" alt="IMG-GALLERY">
+
+				<div class="overlay-item-gallery trans-0-4 flex-c-m">
+					<a class="btn-show-gallery flex-c-m fa fa-search"
+						href="../../imgs/comida-tipica-isla-de-pascua-curanto.jpg" data-lightbox="gallery"></a>
+				</div>
+			</div>
+
+			<!-- --->
+			<div class="item-gallery isotope-item bo-rad-10 hov-img-zoom events">
+				<img src="../../imgs/baile1.jpg" alt="IMG-GALLERY">
+
+				<div class="overlay-item-gallery trans-0-4 flex-c-m">
+					<a class="btn-show-gallery flex-c-m fa fa-search" href="../../imgs/baile1.jpg"
+						data-lightbox="gallery"></a>
+				</div>
+			</div>
+			<div class="item-gallery isotope-item bo-rad-10 hov-img-zoom food">
+				<img src="../../imgs/baileisladepascuaBanner.jpg" alt="IMG-GALLERY">
+
+				<div class="overlay-item-gallery trans-0-4 flex-c-m">
+					<a class="btn-show-gallery flex-c-m fa fa-search" href="../../imgs/baileisladepascuaBanner.jpg"
+						data-lightbox="gallery"></a>
+				</div>
+			</div>
+			<div class="item-gallery isotope-item bo-rad-10 hov-img-zoom food">
+				<img src="../../imgs/bandera.svg" alt="IMG-GALLERY">
+
+				<div class="overlay-item-gallery trans-0-4 flex-c-m">
+					<a class="btn-show-gallery flex-c-m fa fa-search" href="../../imgs/bandera.svg"
+						data-lightbox="gallery"></a>
+				</div>
+			</div>
+			<!-- --->
+			<div class="item-gallery isotope-item bo-rad-10 hov-img-zoom events">
+				<img src="../../imgs/bannerComidas.jpg" alt="IMG-GALLERY">
+
+				<div class="overlay-item-gallery trans-0-4 flex-c-m">
+					<a class="btn-show-gallery flex-c-m fa fa-search" href="../../imgs/bannerComidas.jpg"
+						data-lightbox="gallery"></a>
+				</div>
+			</div>
+			<div class="item-gallery isotope-item bo-rad-10 hov-img-zoom food">
+				<img src="../../imgs/bannerComidasDos.jpg" alt="IMG-GALLERY">
+
+				<div class="overlay-item-gallery trans-0-4 flex-c-m">
+					<a class="btn-show-gallery flex-c-m fa fa-search" href="../../imgs/bannerComidasDos.jpg"
+						data-lightbox="gallery"></a>
+				</div>
+			</div>
+			<div class="item-gallery isotope-item bo-rad-10 hov-img-zoom food">
+				<img src="../../imgs/poe-de-platanos.jpg" alt="IMG-GALLERY">
+
+				<div class="overlay-item-gallery trans-0-4 flex-c-m">
+					<a class="btn-show-gallery flex-c-m fa fa-search" href="../../imgs/poe-de-platanos.jpg"
+						data-lightbox="gallery"></a>
+				</div>
+			</div>
+
+		</div>
+
+
+	</div>
+
+	<!-- Back to top -->
+	<div class="btn-back-to-top bg0-hov" id="myBtn">
+		<span class="symbol-btn-back-to-top">
+			<i class="fa fa-angle-double-up" aria-hidden="true"></i>
+		</span>
+	</div>
+
+
+
+	<!--===============================================================================================-->
+	<script type="text/javascript" src="vendor/jquery/jquery-3.2.1.min.js"></script>
+	<!--===============================================================================================-->
+	<script type="text/javascript" src="vendor/animsition/js/animsition.min.js"></script>
+	<!--===============================================================================================-->
+	<script type="text/javascript" src="vendor/bootstrap/js/popper.js"></script>
+	<script type="text/javascript" src="vendor/bootstrap/js/bootstrap.min.js"></script>
+	<!--===============================================================================================-->
+	<script type="text/javascript" src="vendor/select2/select2.min.js"></script>
+	<!--===============================================================================================-->
+	<script type="text/javascript" src="vendor/daterangepicker/moment.min.js"></script>
+	<script type="text/javascript" src="vendor/daterangepicker/daterangepicker.js"></script>
+	<!--===============================================================================================-->
+	<script type="text/javascript" src="vendor/slick/slick.min.js"></script>
+	<script type="text/javascript" src="js/slick-custom.js"></script>
+	<!--===============================================================================================-->
+	<script type="text/javascript" src="vendor/parallax100/parallax100.js"></script>
+	<script type="text/javascript">
+		$('.parallax100').parallax100();
+	</script>
+	<!--===============================================================================================-->
+	<script type="text/javascript" src="vendor/countdowntime/countdowntime.js"></script>
+	<!--===============================================================================================-->
+	<script type="text/javascript" src="vendor/lightbox2/js/lightbox.min.js"></script>
+	<!--===============================================================================================-->
+	<script type="text/javascript" src="vendor/isotope/isotope.pkgd.min.js"></script>
+	<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+	<script type="text/javascript" src="../pato HTML5 blank images/vendor/jqueryCDN06-09-19.js"></script>
+	<script type="text/javascript" src="../pato HTML5 blank images/vendor/owl.carousel.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="../pato HTML5 blank images/vendor/owl.carousel.min.css" />
+
+	<script type="text/javascript" src="../pato HTML5 blank images/js/script.js"></script>
+
+</body>
+
+</html>
